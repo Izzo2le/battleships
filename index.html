@@ -29,10 +29,10 @@ for ship in range(5):
         board [ship_row][ship_column] = 'X'
 
 def get_ship_location():
-row = input('Please enter a ship row, using numbers 1-8')
+row = input('Please enter a ship row, using numbers 1-8: ')
 while row not in '12345678':
     print('please enter a valid row')
-    row = input('Please enter a ship row, using numbers 1-8')
+    row = input('Please enter a ship row, using numbers 1-8: ')
     column =('Please enter a ship column, using letters A-H').upper()
     while column not in 'ABCDEFGH':
     print('Please enter a valid column')
